@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(239, 224, 200);
+  }
+h1 {
+    font-weight: bold;
+    font-family: 'Lucida Console', Monaco, monospace;
+  }
+img {
+    border-radius: 8px; 
+    width: 350px;
+    display: block;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.middle img {
+    height: 500px;
+    width: auto;
+}
